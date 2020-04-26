@@ -1,5 +1,5 @@
 {
-    "name": "php-translation/symfony-bundle",
+    "name": "translation-bundle/translate-manager",
     "type": "symfony-bundle",
     "description": "",
     "license": "MIT",
