@@ -190,7 +190,7 @@ class WebUIController extends AbstractController
 
         try {
             $message = $this->getMessageFromRequest($request);
-            $message = $message->withDomain($domain);
+            $message = $message->withDomain($domain. '+intl-icu');
             $message = $message->withLocale($locale);
             $this->validateMessage($message, ['Edit']);
         } catch (MessageValidationException $e) {
